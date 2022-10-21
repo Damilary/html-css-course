@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>First Website</title>
+        <link rel="stylesheet" href="Buttons.css">
+    </head>
+    <body>
+        <button>
+            Hello
+        </button>
+        <p>
+            paragraph of text
+        </p>
+        
+        <a href="https://www.youtube.com/" target="_blank">
+            Link to youtube
+        </a>
+        <button>
+            Click
+        </button>
+    </body>
+</html>

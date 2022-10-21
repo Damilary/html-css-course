@@ -1,0 +1,190 @@
+.profile-preview {
+    display: inline-block;
+    width: 250px;
+    height: 375px;
+    margin-right: 20px;
+    border: 0.02;
+    border-style: solid;
+    border-color: rgb(131, 125, 125);
+    border-width: 1px;
+    border-radius: 1px;
+    background-color: white;
+    color: white;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+.image {
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+.profile-name {
+    color: black;
+    font-family: 'Segoe UI';
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.profile-stats {
+    font-size: 18px;
+    color: rgb(109, 100, 100);
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+}
+.add-friend-button {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(66, 103, 178);
+    color: white;
+    font-family: segoe ui;
+    font-weight: small;
+    font-size: 18px;
+    border: 2px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.add-friend-button:active {
+    opacity: 0.8;
+}
+.image-2 {
+    width: 250px;
+    height: 250px;
+    display: block;
+    object-fit: cover;
+}
+.image-3 {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            p {
+             font-family: Roboto, Arial;
+             margin-top: 0px;
+             margin-bottom: 0px;
+            }
+            .image-row {
+                margin-bottom: 12px;
+            }
+            .image, .image-2, .image-3 {
+                width: 240px;
+                height: 240px;
+            }
+            .image-3 {
+                object-fit: cover;
+            }
+            .profile-name {
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                margin-top: 8px;
+                margin-bottom: 12px;
+            }
+            .profile-small {
+                border-radius: 50px;
+                width: 40px;
+                height: 40px;
+            }
+            .profile-stats {
+                
+                font-size: 12px;
+                color: rgb(96, 96, 96);
+            }
+            .add-friend-button {
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 15px;
+                padding-right: 15px;
+                background-color: rgb(25, 143, 216);
+                color: white;
+                font-weight: 400;
+                font-size: 14px;
+                border: 2px;
+                border-radius: 3px;
+                cursor: pointer;
+                transition: 0.15s;
+            }
+            .add-friend-button:active {
+                opacity: 0.8;
+            }
+            .video-info-grid {
+                display: grid;
+                grid-template-columns: 50px 40px fr;
+            }
+            .video-grid {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 16px;
+                row-gap: 30px;
+            }

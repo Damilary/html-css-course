@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0px 70px 0px 50px;
+}
+
+.right-ection {
+    margin: 0px 10px 0px 0px;
+    align-items: center;
+}
+
+.ASHLUXURY {
+    color: rgba(5, 5, 49, 0.788);
+    margin-bottom: 0px;
+    font-size: 25;
+    cursor: pointer;
+}
+.ASHLUXURY-one {
+    position: absolute;
+    text-decoration-line: none;
+    color: rgba(5, 5, 49, 0.788);
+    cursor: pointer;
+}
+
+.middle-section {
+    margin-left: 150px;
+    padding: 0px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.buttons {
+    border: 0;
+    background-color: white;
+    color: rgba(82, 82, 82, 0.904);
+    font-family: 'lato';
+    font-size: 16;
+    font-weight: 350;
+    margin: 4px;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.arrow {
+    padding-top: 5;
+    height: 10px;
+    cursor: pointer;
+}
+
+.left-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.icons {
+    height: 22px;
+    padding: 12px;
+    cursor: pointer;
+}

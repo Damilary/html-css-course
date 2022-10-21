@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-color: rgb(240, 240, 240);
+    padding: 5 0px;
+}
+
+.right-section {
+    margin-left: 8px;
+}
+
+.profile-image {
+    width: 45px;
+    border-radius: 22.5px;
+}
+
+.middle-section {
+    flex: 1;
+    margin: 0px 0px 0px 12px;
+}
+
+.profile-name {
+    color: rgba(19, 19, 19, 0.76);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 0px 4px;
+}
+
+.profile-info {
+    color: rgb(173, 173, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    margin: 0px 0px 4px;
+}
+
+.profile-category {
+    color: rgb(173, 173, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.left-section {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.follow-button {
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(45, 137, 241, 0.945);
+    color: white;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: large;
+    padding: 8 12;
+    transition: 0.15;
+}
+
+.follow-button:hover {
+    background-color: rgb(29, 111, 204);
+    color: white;
+}
+
+.follow-button:active {
+    opacity: 0.8;
+}

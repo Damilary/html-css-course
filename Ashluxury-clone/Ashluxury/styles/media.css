@@ -1,0 +1,11 @@
+@media (max-width:520px) {
+    .header-promo-message, .limited {
+        font-size: 8px;
+        letter-spacing: 0.98px;
+    }
+    
+    .set {
+        padding: 15px 4px;
+        display: flex;
+    }
+}

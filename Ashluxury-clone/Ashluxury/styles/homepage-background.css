@@ -1,0 +1,52 @@
+.main-banner{
+    margin-top: 10px;
+    height: 450px;
+    background-image: url("https://cdn.shopify.com/s/files/1/0566/4731/9706/files/dailypaper2_5c51f682-aa53-46df-a3a3-beec8737cc7f_1296x.jpg");
+    background-size: cover;
+    cursor: grab;
+}
+
+.position-slide {
+    position: absolute;
+    top: 300;
+    padding-left: 70px;
+}
+
+.slide-one-daily {
+    color: black;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.slide-one-collection {
+    color: black;
+    font-family: 'lato', sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.shop-button {
+    border: 0;
+    background-color: rgb(33, 33, 73);
+    color: white;
+    font-family: 'lato', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    padding: 8px 30px;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+
+.shop-button:hover {
+    color: black;
+    background-color: rgba(255, 200, 98, 0.966);
+    transition: 0.5s;
+}
+
+.shop-button:active {
+    transition: 0.8s;
+}
