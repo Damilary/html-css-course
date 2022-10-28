@@ -1,100 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Damilary</title>
     <!-- favicon -->
-    <link rel="shortcut icon" href="favicon-logo/site-log.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="favicon-logo/site-log.png"
+      type="image/x-icon"
+    />
     <!-- CSS flies -->
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css" />
     <!-- icon CDN link -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css">
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@2.1.2/css/boxicons.min.css"
+    />
+
     
-
-
+  </head>
+  <body>
     <!-- ============================ navigation Bar ====================== -->
+    <header>
+      <!-- logo -->
+      <a href="#home" class="logo">Damilary</a>
 
+      <!-- button for responsive device -->
+      <div class="bx bx-menu" id="menu-icon"></div>
 
+      <!-- menu items -->
+      <ul class="navbar">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
 
+      <!-- darkmode button -->
+        <div class="bx bx-moon" id="darkmode"></div>
+    </header>
 
     <!-- ============================== Home Section ========================= -->
     <section class="home" id="home">
-        <div class="social">
-            <a href=""><i class="bx bxl-github"></i></a>
-            <a href=""><i class="bx bxl-dribbble"></i></a>
-            <a href=""><i class="bx bxl-facebook"></i></a>
-        </div>
+      <div class="social">
+        <a href="" role="link"><i class="bx bxl-github"></i></a>
+        <a href="" role="link"><i class="bx bxl-dribbble"></i></a>
+        <a href="" role="link"><i class="bx bxl-facebook"></i></a>
+      </div>
 
-        <!-- home image -->
-        <div class="home-img">
-            <img src="home image/IMG_20220122_141136_377.jpg" alt="home-img">
-        </div>
+      <!-- home image -->
+      <div class="home-img">
+        <img
+          src="home image/IMG_20220122_141136_377.jpg"
+          alt="home-img"
+        />
+      </div>
 
-        <!-- home content -->
-        <div class="home-text">
-            <span>Hello I'm</span>
-            <h1>Abdulrahmon Damilare Jimoh</h1>
-            <h2>Frontend Developer</h2>
-            <p>amet consectetur adipisicing elit. Eveniet ducimus incidunt qui, necessitatibus repellat illo deleniti expedita omnis placeat error maiores iure earum at nulla, aperiam ipsam, doloremque rem quo?</p>
-            <!-- contact button -->
-            <a href="" class="btn">Contact Me</a>
-        </div>
+      <!-- home content -->
+      <div class="home-text">
+        <span>Hello I'm</span>
+        <h1>Abdulrahmon Damilare Jimoh</h1>
+        <h2>Frontend Developer</h2>
+        <p>
+          I am a Frontend Developer with experience building websites for small and medium-sized businesses&period;
+        </p>
 
+        <!-- contact button -->
+        <a href="#contact" class="btn">Contact Me</a>
+      </div>
     </section>
 
+    <!-- ====================== Skills Section ========================= -->
+    <section class="skills" id="skills">
+      <div class="heading">
+        <h2>Skills</h2>
+        <span> My Skills</span>
+      </div>
+
+      <!-- Skills content -->
+      <div class="skills-container">
+        <div class="bars">
+          <!-- box-1 -->
+          <div class="bars-box">
+            <h3>HTML</h3>
+            <span>94%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar html-bar"></div>
+          </div>
+          
+          <!-- box-2 -->
+          <div class="bars-box">
+            <h3>CSS</h3>
+            <span>84%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar css-bar"></div>
+          </div>
+
+          <!-- box-3 -->
+          <div class="bars-box">
+            <h3>JavaScript</h3>
+            <span>74%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar js-bar"></div>
+          </div>
+
+          <!-- box-4 -->
+          <div class="bars-box">
+            <h3>React</h3>
+            <span>80%</span>
+            <div class="light-bar"></div>
+            <div class="percent-bar react-bar"></div>
+          </div>
+        </div>
+
+        <!-- image -->
+        <div class="skills-img">
+          <img
+            src="pictures/reshot-illustration-web-design-elements-QYF4GLMV72.jpg"
+            alt="reshot-illustration-web-design-elements-QYF4GLMV72.jpg"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== Service Box ================== -->
+    <section class="services" id="services">
+      <div class="heading">
+        <h2>Services</h2>
+        <span>Our Services</span>
+      </div>
+
+      <div class="services-content">
+        <!-- box-1 -->
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <a href="">learm More</a>
+        </div>
+
+        <!-- box-2 -->
+        <div class="services-box">
+          <i class="bx bx-server"></i>
+          <h3>Backend Development</h3>
+          <a href="">learm More</a>
+        </div>
+
+        <!-- box-3 -->
+        <div class="services-box">
+          <i class="bx bx-brush"></i>
+          <h3>UI/UX Design</h3>
+          <a href="">learm More</a>
+        </div>
+
+        <!-- box-4 -->
+        <div class="services-box">
+          <i class="bx bxl-wordpress"></i>
+          <h3>Wordpress Developer</h3>
+          <a href="">learm More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======================== Portfolio section ========================= -->
+    <section class="portfolio" id="portfolio">
+      <div class="heading">
+        <h2>Portfolio</h2>
+        <span>Our Recent Work</span>
+      </div>
+
+      <div class="portfolio-content">
+        <!-- box-1 -->
+        <div class="portfolio-img">
+          <img
+            src="pictures/reshot-illustration-website-development-5QS97CJH2A-9f9a1.jpg"
+            alt="portfolio-img"
+          />
+        </div>
+
+        <!-- box-2 -->
+        <div class="portfolio-img">
+          <img
+            src="pictures/screencapture-dashboard-stripe-com-settings-1596052598045_izsmch.png"
+            alt="portfolio-img"
+          />
+        </div>
+
+        <!-- box-3 -->
+        <div class="portfolio-img">
+          <img
+            src="home image/IMG_20220122_141136_377.jpg"
+            alt="portfolio-img"
+          />
+        </div>
+
+        <!-- box-4 -->
+        <div class="portfolio-img">
+          <img
+            src="home image/IMG_20220122_141136_377.jpg"
+            alt="portfolio-img"
+          />
+        </div>
+
+        <!-- box-5 -->
+        <div class="portfolio-img">
+          <img
+            src="home image/IMG_20220122_141136_377.jpg"
+            alt="portfolio-img"
+          />
+        </div>
+
+        <!-- box-6 -->
+        <div class="portfolio-img">
+          <img
+            src="home image/IMG_20220122_141136_377.jpg"
+            alt="portfolio-img"
+          />
+        </div>
+      </div>
+    </section>
 
     <!-- =============================== About section============== -->
     <section class="about" id="about">
-        <!-- heading -->
-        <div class="heading">
-            <h2>About Me</h2>
-            <span>Introduction</span>
+      <!-- heading -->
+      <div class="heading">
+        <h2>About Me</h2>
+        <span>Introduction</span>
+      </div>
+
+      <!-- about content -->
+      <div class="about-container">
+        <!-- image -->
+        <div class="about-img">
+          <img
+            src="pictures/reshot-illustration-website-development-UGFS3EDH8L.jpg"
+            alt="about-img"
+          />
         </div>
+        <!-- text -->
+        <div class="about-text">
+          <p>
+            I am a Frontend Developer with experience building websites for small and medium&dash;sized businesses. Whether you&apos;re trying to win work, list your services or even create a whole online store &dash; I am your best choice!
+            I am skilled in HTML and CSS&comma; Javascript&comma; React&comma; WordPress&comma; and SEO
+            I will manage your project with a full brief from start to finish&period;
+            Regular communication is essential to me&comma; so let&apos;s keep in touch&excl;
+          </p>
 
-        <!-- about content -->
-        <div class="about-container">
-            <!-- image -->
-            <div class="about-img">
-                <img src="home image/IMG_20220122_141136_377.jpg" alt="about-img">
+          <!-- some information -->
+          <div class="information">
+            <!-- box-1 -->
+            <div class="info-box">
+              <i class="bx bxs-user"></i>
+              <span>Abdulrahmon Damilare Jimoh</span>
             </div>
-            <!-- text -->
-            <div class="about-text">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem at, possimus porro quos voluptatem aliquam explicabo quae sunt esse expedita, enim sed suscipit unde necessitatibus ratione eaque inventore molestias nobis?</p>
-
-               <!-- some information -->
-                <div class="information">
-                    <!-- box-1 -->
-                    <div class="info-box">
-                        <i class="bx bxs-user"></i>
-                        <span>Abdulrahmon Damilare Jimoh</span>
-                    </div>
-                    <!-- box-2 -->
-                    <div class="info-box">
-                        <i class="bx bxs-phone"></i>
-                        <span>+234 708 0984 078</span>
-                    </div>
-                    <!-- box-3 -->
-                    <div class="info-box">
-                        <i class="bx bxs-envelope"></i>
-                        <span>Damilary@outlook.com</span>
-                    </div>
-
-                </div>
-                <!-- btn -->
-                <a href="" class="btn">Download CV</a>
-
+            <!-- box-2 -->
+            <div class="info-box">
+              <i class="bx bxs-phone"></i>
+              <span>+234 708 0984 078</span>
             </div>
-
+            <!-- box-3 -->
+            <div class="info-box">
+              <i class="bx bxs-envelope"></i>
+              <span>Damilary@outlook.com</span>
+            </div>
+          </div>
+          <!-- btn -->
+          <a href="" class="btn">Download CV</a>
         </div>
-
-
+      </div>
     </section>
 
-    <!-- js file -->
-    <script src="js/script.js"></script>
-</body>
+    <!-- ====================== contact form ======================== -->
+    <section class="contact" id="contact">
+      <div class="heading">
+        <h2>Contact</h2>
+        <span>Contact With Us</span>
+      </div>
+
+      <!-- form -->
+      <div class="contact-form">
+        <form action="">
+          <input type="text" placeholder="Your Name" />
+          <input type="email" placeholder="Your Email" />
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Write Message Here...."
+          ></textarea>
+          <input type="button" value="Send" class="contact-button" />
+        </form>
+      </div>
+    </section>
+
+    <!-- =========================== footer section ======================== -->
+    <div class="footer" id="footer">
+      <h2>Damilary</h2>
+      <div class="footer-social">
+        <a href="" role="link"><i class="bx bxl-facebook"></i></a>
+        <a href="" role="link"><i class="bx bxl-twitter"></i></a>
+        <a href="" role="link"><i class="bx bxl-instagram"></i></a>
+        <a href="" role="link"><i class="bx bxl-youtube"></i></a>
+      </div>
+    </div>
+
+    <!-- copyright -->
+    <div class="copyright">
+      <p>Create By <a href="">Damilary</a>| All Right Reservered.</p>
+    </div>
+
+    <!-- dark/light mode.js -->
+    <script src="js/dark mode.js"></script>
+
+    <!-- chat-plugins.js -->
+    <!-- <script src="js/plugins.js"></script> -->
+  </body>
 </html>

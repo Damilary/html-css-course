@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Age Calculator</title>
+
+
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <nav class="navbar">
+    <h1 class="nav-brand">Your Age In .....</h1>
+</nav>
+
+<main class="container">
+    <div>
+        <label class="label" for="component-name">Enter age</label>
+        <input type="number" class="input" placeholder="Enter age" id="your-age-by-next-year" min="0" max="130" autocomplete="off">
+
+        <p>Next year, you will be <span class="next age" id="next-age-in-one"></span>.</p>
+    </div>
+
+    <div>
+        <label class="label" for="component-name">Enter age</label>
+        <input type="number" class="input" placeholder="Enter age" id="your-age-in-two" min="0" max="130" autocomplete="off">
+
+        <p>In two years time, you will be <span class="next age" id="next-age-in-two"></span>.</p>
+    </div>
+    
+</main>
+
+
+
+<script src="index.js"></script>
+
+</body>
+</html>

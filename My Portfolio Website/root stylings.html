@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      :root {
+        --primary-color: rgb(82, 80, 144);
+        --secondary-color: #536390;
+        --font-color: #424242;
+        --bg-color: #fff;
+        --heading-color: #292922;
+        --color: black;
+      }
+      [data-theme="dark"] {
+        --primary-color: rgb(107, 106, 134);
+        --secondary-color: #818cab;
+        --font-color: #e1e1ff;
+        --bg-color: #4d5055;
+        --heading-color: #63656d;
+        --color: black;
+      }
+      body {
+        background-color: var(--bg-color);
+        color: var(--font-color);
+      }
+      h1 {
+        color: var(--secondary-color);
+      }
+
+      a {
+        color: var(--primary-color);
+      }
+      input {
+        color: var(--color);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="input-field" data-theme="dark">
+      <input type="text" id="searchquery" placeholder="Type here" />
+    </div>
+  </body>
+</html>

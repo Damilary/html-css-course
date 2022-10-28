@@ -548,6 +548,11 @@ ul {
     height: 35px;
 }
 
+li {
+    list-style: none;
+    margin: 0;
+}
+
 .footer-social-svg {
     width: 30px;
     height: 30px;
@@ -583,15 +588,6 @@ ul {
 .footer-navigator a:hover, .footer-navigator:active {
     color: rgb(6, 114, 168);
 }
-
-
-
-
-
-
-
-
-
 
 
 .footer-subsection {
